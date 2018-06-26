@@ -1,7 +1,10 @@
+#include <string>
 #include <iostream>
 
 using namespace std;
 
 int main(){
-    cout << "Hello World!\n";
+    string a;
+    cin >> a;
+    cout << "Hello, " << a << "!\n";
 }
